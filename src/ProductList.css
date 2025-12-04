@@ -84,6 +84,7 @@ body {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
+    background-color: rgb(212, 254, 169);
 }
 
 .product-title {
@@ -112,10 +113,13 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
     margin-top: 10px;
+    border-radius: 5px;
+    ;
 }
 
 .product-button:hover {
     background-color: #c0392b;
+    color: blue;
 }
 
 /* Pseudo-elements - Sale badge */

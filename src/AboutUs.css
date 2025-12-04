@@ -1,33 +1,41 @@
 .about-us-container {
-    width: 1000px;
-    /* margin: 0 auto; */
-    /* padding: 20px; */
-    /* background-color: red; */
-    text-align: justify;
-  }
-  
-  .about-us-heading {
-    font-size: 32px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .about-us-description {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .about-us-content {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  .plant_logo_right{
-    text-align: right;
-  }
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 600px;
+  /* margin: 0 auto; */
+  /* padding: 20px; */
+  /* background-color: red; */
+  text-align: justify;
+  margin-right: 40px;
+  margin-left: 0;
 
-  .plant_logo_left{
-    text-align: left;
-  }
+}
+
+.about-us-heading {
+  font-size: 38px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us-description {
+  font-size: 28px;
+  color: #448e00;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.about-us-content {
+  font-size: 12px;
+  margin-bottom: 20px;
+  color: rgb(rgb(192, 186, 186), green, blue)
+}
+
+.plant_logo_right {
+  text-align: right;
+}
+
+.plant_logo_left {
+  text-align: left;
+}
